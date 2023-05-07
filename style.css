@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul {
+	list-style-type: none;
+}
+img {
+	max-width: 100%;
+}
+a {
+	color: blue;
+}
+a, img, i, input, select, textarea, label, .post-footer, .post-cover, .post-content, .content-last, .comments, .header-author-anchor {
+	display: flex;
+}
+body {
+	background: url('middle-icons/pattern.jpg');
+	background-size: 17rem;
+}
+.header-author-anchor, .post-cover {
+	align-items: center;
+}
+.content-last {
+	flex-direction: column;
+}
+.comments {
+	justify-content: center;
+}
+.post-cover, .post-footer, .post-content {
+	justify-content: space-between;
+}
+.post-container, .container, .navbar-container {
+	width: 906px;
+	margin: 0 auto;
+	padding: 0 8px;
+}
+.post-container {
+	padding: 25px 0;
+}
+.content-last {
+	padding: 15px 15px;
+}
+.container {
+	
+}
+.post-header, .post-user {
+	
+}
+/* dashboard */
+.dashboard-post-list {
+	display: flex;
+}
+/* end dashboard */
+/* navbar */
+.navbar-items {
+	display: flex;
+	justify-content: space-between;
+}
+/* end navbar */
+
+
+
+
+
+
+
+
+
+
+
+.btn-same-posts{
+	
+}
